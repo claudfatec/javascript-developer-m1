@@ -1,10 +1,14 @@
-# Calcular o preco final
+# Classes
 
-Elabore um algoritmo que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta e a escolha da condição de pagamento.
-Utilize os códigos da tabela a seguir para ler qual a condição de pagamento escolhida e efetuar o cálculo adequado.
-Código Condição de pagamento:
+## 1. Crie uma classe para representar carros.  :happy:
 
-* À vista Débito, recebe 10% de desconto;
-* À vista no Dinheiro ou PIX, recebe 15% de desconto;
-* Em duas vezes, preço normal de etiqueta sem juros;
-* Acima de duas vezes, preço normal de etiqueta mais juros de 10%;
+Os carros possuem uma marca, uma cor e um gasto médio de combustível por Kilômetro rodado.
+Crie um método que dado a quantidade de quilómetros e o preço do combustível nos dê o valor
+gasto em reais para realizar este percurso.
+
+## 2. Crie uma classe para representar pessoas.
+
+Para cada pessoa teremos os atributos nome, peso e altura.
+As pessoas devem ter a capacidade de dizer o valor do seu IMC (IMC = peso / (altura * altura));
+Instancie uma pessoa chamada José que tenha 70kg de peso e 1,75 de altura e peça ao José para dizer o valor
+do seu IMC; :applause: :brazil:
