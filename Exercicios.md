@@ -1,12 +1,12 @@
 # Classes
 
-## 1. Crie uma classe para representar carros.  :happy:
+## 1. Crie uma classe para representar carros.  :car: 
 
 Os carros possuem uma marca, uma cor e um gasto médio de combustível por Kilômetro rodado.
 Crie um método que dado a quantidade de quilómetros e o preço do combustível nos dê o valor
 gasto em reais para realizar este percurso.
 
-## 2. Crie uma classe para representar pessoas.
+## 2. Crie uma classe para representar pessoas.  :family:
 
 Para cada pessoa teremos os atributos nome, peso e altura.
 As pessoas devem ter a capacidade de dizer o valor do seu IMC (IMC = peso / (altura * altura));
