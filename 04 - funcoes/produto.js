@@ -10,10 +10,6 @@ function aplicarDesconto(precoEtiqueta, desconto){
     return (precoEtiqueta - (precoEtiqueta * desconto/100));
 }
 
-function aplicarJuro(precoEtiqueta, juro){
-    return (precoEtiqueta + (precoEtiqueta * juro/100))
-}
-
 function precoFinal(precoEtiqueta, formaPagamento){
     if (formaPagamento == 'Débito'){
         return aplicarDesconto(precoEtiqueta, 10);
@@ -22,18 +18,25 @@ function precoFinal(precoEtiqueta, formaPagamento){
         return aplicarDesconto(precoEtiqueta, 15);
     }
     else if(formaPagamento == '2x'){
-        return precoEtiqueta;
+        return aplicarDesconto(precoEtiqueta, 0);
     }
     else if(formaPagamento == '+2x') {
-        return aplicarJuro(precoEtiqueta, 10);
+        return aplicarDesconto(precoEtiqueta, -10);
     }
     else {
-        return  0;
+        return  999999999;
     }
 }
 
 //main
 (function (){
-preco=precoFinal(100, 'PIuX');
-console.log('R$ ' + preco.toFixed(2));
+var precoEtiqueta =  prompt("Qual o preço de etiqueta do produto?");
+var formaPagamento = prompt("Qual a forma de pagamento?");
+preco=precoFinal(precoEtiqueta, formaPagamento);
+if (preco == 999999999){
+    alert("Recarregue a página (F5) e informe Forma de Pagamento: Débito, Dinheiro, PIX, 2x ou +2x");
+}
+else{
+    alert('R$ ' + preco.toFixed(2));
+}
 })();
