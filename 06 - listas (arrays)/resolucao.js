@@ -19,3 +19,12 @@ for (let i = 0; i < lista.length; i++) {
         console.log(lista[i]);
     }
 }
+
+// exerc 4
+const num4 = [];
+for (let i = 10; i <=50 ; i++) {
+    if (i %2 ==0){
+        num4.push(i);
+        console.log(i);
+    };
+}
