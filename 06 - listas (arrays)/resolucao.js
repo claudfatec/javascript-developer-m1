@@ -36,3 +36,6 @@ for (let i = 0; i<lista.length; i++){
         console.log(lista[i]);
     }
 }
+
+//exerc 6
+console.log(Math.max(2, 7, 3, 8, 106, 4));
