@@ -13,3 +13,9 @@ for (let i = 0; i < num.length; i++) {
 }
 
 // exerc.3
+lista = ["terry", "very", "crab", "vinny"];
+for (let i = 0; i < lista.length; i++) {
+    if (lista[i].startsWith("v")) {
+        console.log(lista[i]);
+    }
+}
