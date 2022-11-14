@@ -28,3 +28,11 @@ for (let i = 10; i <=50 ; i++) {
         console.log(i);
     };
 }
+
+//exerc 5
+lista  = [2, 7, 3, 8, 10, 4];
+for (let i = 0; i<lista.length; i++){
+    if (lista[i]<5){
+        console.log(lista[i]);
+    }
+}
