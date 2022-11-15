@@ -33,9 +33,18 @@ for (let i = 10; i <=50 ; i++) {
 lista  = [2, 7, 3, 8, 10, 4];
 for (let i = 0; i<lista.length; i++){
     if (lista[i]<5){
-        console.log(lista[i]);
+        console.log('Nota: ' + lista[i] + ' Recuperação.');
     }
 }
 
 //exerc 6
-console.log(Math.max(2, 7, 3, 8, 106, 4));
+// poderia ser assim: console.log(Math.max(2, 7, 3, 8, 106, 4));
+lista = [2, 7, 3, 8, 10, 4];
+maior = -1;
+
+for (let i = 0; i < lista.length; i++) {
+if (maior < lista[i]) {
+    maior = lista[i];
+}
+}
+console.log('A maior nota foi ' + maior);
