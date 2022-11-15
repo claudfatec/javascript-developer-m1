@@ -22,12 +22,14 @@ for (let i = 0; i < lista.length; i++) {
 
 // exerc 4
 const num4 = [];
+console.log("Seguem pares da lista:");
 for (let i = 10; i <=50 ; i++) {
     if (i %2 ==0){
         num4.push(i);
         console.log(i);
     };
 }
+console.log("Fim.");
 
 //exerc 5
 lista  = [2, 7, 3, 8, 10, 4];
