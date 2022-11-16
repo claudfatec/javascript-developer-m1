@@ -9,7 +9,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Iniciar o Chrome em relação a localhost",
-            "url": "C:/Users/P08150631/DIO/javascript-developer-m1/page5.html",
+            "url": "C:/Users/P08150631/DIO/javascript-developer-m1/page2.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
